@@ -1,38 +1,119 @@
 .App {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navbar{
   display: flex;
-  flex-direction: column;
+  height: 100px;
+  justify-content: space-evenly;
+  background-color: aquamarine;
+  font-size: 32px;
+  font-family:🏸 ;
+  margin-top: 5px;
+  justify-items: center;
+  flex-wrap: wrap;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  text-decoration: none;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+a {
+  text-decoration: none;
+}
+.table{
+  position: absolute;
+ top: 300px;
+ background-color: rgb(61, 220, 235);
+ color: black;
+ font-size: 30px;
+ border-collapse: collapse;
+ width: 80%;
+ text-align: center;
+ left: 150px;
+}
+.Stname{
+  position: absolute;
+  top:120px;
+  left: 190px;
+  color: black;
+  font-size:40px;
+}
+.btn1{
+  border: 2px solid black;
+  width: 350px;
+  height: 50px;
+  border-radius: 10px;
+  position: absolute;
+  top:150px;
+  margin-left: 220px;
+  color: black;
+  font-size: larger;
+  background-color: rgb(219, 184, 203);
+  text-align: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+
+
+form {
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+  justify-content: center; 
+  height: 50vh; 
+  width: 50%;
+  margin-top: 10px;
+  margin-left: 450px;
+  justify-items: center;
+  background-color: grey;
 }
+
+
+.table1 {
+  border-collapse: collapse;
+  margin-bottom: 20px; 
+}
+
+
+.table1 td {
+  padding: 10px; 
+  text-align: right; 
+}
+
+
+input {
+  width: 100%; 
+  padding: 5px;
+  margin: 5px 0; 
+}
+.btn{
+  border: 2px solid black;
+  width: 150px;
+  height: 50px;
+  border-radius: 10px;
+  position: absolute;
+  top:480px;
+  margin-left: 220px;
+  color: black;
+  font-size: larger;
+  background-color: rgb(219, 184, 203);
+  text-align: center;
+  margin-left: 350px;
+}
+.btn2{
+  border: 2px solid black;
+  width: 150px;
+  height: 50px;
+  border-radius: 10px;
+  position: absolute;
+  top:480px;
+  margin-left: 220px;
+  color: black;
+  font-size: larger;
+  background-color: rgb(219, 184, 203);
+  text-align: center;
+  margin-right: 280px;
+}
+
+
+
+
+
